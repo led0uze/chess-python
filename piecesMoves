@@ -1,0 +1,11 @@
+from this import d
+import pygame
+
+def moves():
+    mx, my = pygame.mouse.get_pos()
+    clicking = False
+    x = 0
+    y = 0
+    if event.type == pygame.MOUSEBUTTONDOWN():
+        if event.button == 1:
+            clicking = True
